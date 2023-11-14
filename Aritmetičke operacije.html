@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aritmetičke operacije</title>
+</head>
+<body>
+    <script>
+
+        let x = prompt("Unesite prvi broj!")
+        let y = prompt("Unesite aritmetičku operaciju!")
+        let z = prompt("Unesite drugi broj!")
+        let result ;
+
+        switch (y) {
+            case "+": result = parseInt(x)+parseInt(z);
+            alert("Vaš rezultat je:" +result);
+        }
+        switch (y) {
+            case "-": result = parseInt(x)-parseInt(z);
+            alert("Vaš rezultat je:" +result);
+        }
+        switch (y) {
+            case "*": result = parseInt(x)*parseInt(z);
+            alert("Vaš rezultat je:" +result);
+        }
+        switch (y) {
+            case "/": result = parseInt(x)/parseInt(z);
+            alert("Vaš rezultat je:" +result);
+        }
+    </script>
+</body>
+</html>
